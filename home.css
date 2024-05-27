@@ -973,7 +973,7 @@ override
     padding: 10px 20px;
 }
 .header nav a:hover {
-    background-color: #575757;
+    background-color: #e3951f;
 }
 .header .menu-icon {
     display: none;
