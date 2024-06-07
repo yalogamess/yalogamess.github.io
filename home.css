@@ -96,7 +96,7 @@ svg {
 }
 
 * {
-    cursor: url('cursor.png'), auto;
+    cursor: url('/assets/cursor.png'), auto;
 }
 body {
     /* background: #dadada url('bg.png') repeat; */
@@ -974,6 +974,9 @@ override
 }
 .header nav a:hover {
     background-color: #e3951f;
+}
+.header nav a.active {
+    border-bottom: 2px solid #e3951f;
 }
 .header .menu-icon {
     display: none;

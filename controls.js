@@ -197,7 +197,7 @@ function addBtnHome() {
   e.className = 'in-game-button';
   e.id = 'inGame';
   e.innerHTML = `
-    <img src="https://yalogames.github.io/76ez.png" width="150px" height="60px" alt="77 Games io">`;
+    <img src="https://yalogames.github.io/assets/favicon.png" width="150px" height="60px" alt="77 Games io">`;
     document.getElementsByTagName('body')[0].appendChild(e);
 }
  }
@@ -234,7 +234,7 @@ function returnHome(){
         return;
     }
     var newWindow = window.open("https://yalogames.github.io", "");
-    newWindow.document.title = "77 Games io";
+    newWindow.document.title = "YaloGames io";
 }
 function opendiscord(){
     window.open("https://yalogames.github.io");
@@ -245,7 +245,7 @@ window.alert = function() {};
 alert = function() {};
 
 function loadHeader() {
-    fetch('header.html')
+    fetch('../header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header-placeholder').innerHTML = data;
@@ -253,12 +253,22 @@ function loadHeader() {
             window.toggleMenu = function() {
                 const header = document.querySelector('.header');
                 header.classList.toggle('nav-active');
-            }
+            };
+            // check active header
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('nav a');
+            // console.log(navLinks);
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+            
         })
         .catch(error => console.error('Error loading header:', error));
 }
 function loadFooter() {
-    fetch('footer.html')
+    fetch('../footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
