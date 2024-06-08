@@ -190,17 +190,16 @@ function addBtnHome() {
    var e = document.createElement('button');
    e.className = 'in-game-button2'; // change class to 'in-game-button2'
    e.id = 'inGame';
- 
-  } 
+} 
  else {
   var e = document.createElement('button');
   e.className = 'in-game-button';
   e.id = 'inGame';
   e.innerHTML = `
-    <img src="https://yalogames.github.io/assets/favicon.png" width="150px" height="60px" alt="77 Games io">`;
+    <img src="https://yalogames.github.io/assets/favicon.png" width="50px" height="60px" alt="YaloGames.github.io">`;
     document.getElementsByTagName('body')[0].appendChild(e);
 }
- }
+}
 
 
 // function loadFirebase(){
