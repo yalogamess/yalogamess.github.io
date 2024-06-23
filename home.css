@@ -1016,11 +1016,11 @@ override
     position: absolute;
 }
 .footer .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 1rem;
+    padding-right: 20px;
 }
-footer .logo img {
-    height: 6em;
+.footer .logo img {
+    height: 7em;
 }
 .footer .description {
     max-width: 500px;
