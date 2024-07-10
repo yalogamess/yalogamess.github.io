@@ -1038,3 +1038,15 @@ override
 .footer .links a:hover {
     text-decoration: underline;
 }
+
+#moreGames {
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#iframe-container {
+    background-color: #0a061b;
+}
