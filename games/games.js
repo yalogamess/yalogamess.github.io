@@ -763,7 +763,7 @@ function getRandomItems(arr, num) {
 const randomGames = getRandomItems(gamesList, 24);
 
 // Log the result to the console
-console.log(randomGames);
+// console.log(randomGames);
 
 document.addEventListener('DOMContentLoaded', function () {
 

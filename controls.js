@@ -274,6 +274,9 @@ function loadFooter() {
         })
         .catch(error => console.error('Error loading header:', error));
 }
+
+document.addEventListener('DOMContentLoaded', function () {
 // Call the function to load the header
-loadHeader();
-loadFooter();
+    loadHeader();
+    loadFooter();
+});
