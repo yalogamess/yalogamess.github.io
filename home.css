@@ -1050,3 +1050,25 @@ override
 #iframe-container {
     background-color: #0a061b;
 }
+.iframe-game {
+    margin-left: 10px;
+    height: 600px;
+    width: 950px;
+    float: left;
+}
+.iframe-btn {
+    float: right;
+    a {
+    color: #fff;
+    }
+    a:hover {
+        color: #0056b3;
+        cursor: pointer;
+    }
+}
+.iframe-ads-container {
+    margin-right: 20px;
+    height: 600px;
+    width: 170px;
+    float: right;
+}
