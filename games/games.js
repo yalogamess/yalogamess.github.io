@@ -788,6 +788,7 @@ document.getElementById('moreGames').appendChild(divContainer);
 // full screen
 var is_fullscreen = false;
 function open_fullscreen() {
+	return true; // disable always
 	let game = document.getElementById("iframe-box");
 	if(is_fullscreen){
 		// Exit fullscreen
