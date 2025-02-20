@@ -1,0 +1,13 @@
+{
+  "name": "YaloGames - Unblocked Games",
+  "short_name": "YaloGames",
+  "start_url": "https://yalogames.github.io/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/logo-280x280.png",
+      "sizes": "280x280",
+      "type": "image/png"
+    }
+  ]
+}
