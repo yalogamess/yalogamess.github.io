@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /
+Allow: /games/
+Allow: /index.html
+Allow: /contact.html
+Allow: /privacy-policy.html
+Allow: /action/
+Allow: /car/
+Allow: /classroom6x/
+Allow: /bike/
+Allow: /skill/
+Allow: /adventure/
+Allow: /assets/
