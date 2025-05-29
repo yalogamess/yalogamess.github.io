@@ -13,3 +13,4 @@ Allow: /adventure/
 Allow: /assets/
 Allow: /ads.txt
 Allow: /404.html
+Allow: /?s=
