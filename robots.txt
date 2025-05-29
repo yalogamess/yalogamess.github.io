@@ -11,3 +11,5 @@ Allow: /bike/
 Allow: /skill/
 Allow: /adventure/
 Allow: /assets/
+Allow: /ads.txt
+Allow: /404.html
